@@ -1,10 +1,10 @@
 export default function* createIteratorObject(report) {
-    // Iterate over each department in the report
+    // Iterate over each department in the report object
     for (const department in report.allEmployees) {
-      // Iterate over each employee in the current department
-      for (const employee of report.allEmployees[department]) {
-        // Yield the employee name
-        yield employee;
+      const employees = report.allEmployees[department];
+      // Iterate over each employee in the department
+      for (const employee of employees) {
+        yield employee; // Yield each employee
       }
     }
   }
