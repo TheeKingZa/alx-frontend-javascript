@@ -1,63 +1,31 @@
-import HolbertonCourse from './2-hbtn_course';
+const HolbertonCourse = require('./2-hbtn_course');
 
-// Test suite for the HolbertonCourse class
-describe('holbertonCourse', () => {
-  // Test case for the constructor
-  it('should create a HolbertonCourse object with the specified attributes', () => {
-    // Expect assertions to be called in this test case
-    expect.assertions(3);
+// Test cases
+test('Test valid inputs', () => {
+  const c1 = new HolbertonCourse('ES6', 1, ['Bob', 'Jane']);
+  expect(c1.name).toBe('ES6');
+  expect(c1.length).toBe(1);
+  expect(c1.students).toEqual(['Bob', 'Jane']);
 
-    // Create a new HolbertonCourse object
-    const course = new HolbertonCourse('ES6', 8, ['Bob', 'Jane']);
+  c1.name = 'Python 101';
+  expect(c1.name).toBe('Python 101');
 
-    // Verify that the object is an instance of HolbertonCourse
-    expect(course).toBeInstanceOf(HolbertonCourse);
+  c1.length = 2;
+  expect(c1.length).toBe(2);
 
-    // Verify that the attributes are correctly initialized
-    expect(course.name).toBe('ES6');
-    expect(course.students).toStrictEqual(['Bob', 'Jane']);
-  });
+  c1.students = ['Alice', 'John'];
+  expect(c1.students).toEqual(['Alice', 'John']);
+});
 
-  // Test cases for getters and setters
-  it('should get and set the name attribute', () => {
-  // Expect assertions to be called in this test case
-    expect.assertions(2);
+test('Test invalid inputs', () => {
+  const c1 = new HolbertonCourse('ES6', 1, ['Bob', 'Jane']);
 
-    // Create a new HolbertonCourse object
-    const course = new HolbertonCourse('ES6', 8, ['Bob', 'Jane']);
+  // Attempt to set name to a non-string value
+  expect(() => { c1.name = 12 }).toThrow('Name must be a string');
 
-    // Set a new value for the name attribute
-    course.name = 'Python 101';
+  // Attempt to set length to a non-number value
+  expect(() => { c1.length = '2' }).toThrow('Length must be a number');
 
-    // Verify that the name attribute has been updated
-    expect(course.name).toBe('Python 101');
-  });
-
-  it('should get and set the length attribute', () => {
-    // Expect assertions to be called in this test case
-    expect.assertions(2);
-
-    // Create a new HolbertonCourse object
-    const course = new HolbertonCourse('ES6', 8, ['Bob', 'Jane']);
-
-    // Set a new value for the length attribute
-    course.length = 10;
-
-    // Verify that the length attribute has been updated
-    expect(course.toHavelength).toBe(10);
-  });
-
-  it('should get and set the students attribute', () => {
-    // Expect assertions to be called in this test case
-    expect.assertions(2);
-
-    // Create a new HolbertonCourse object
-    const course = new HolbertonCourse('ES6', 8, ['Bob', 'Jane']);
-
-    // Set a new value for the students attribute
-    course.students = ['Alice', 'John'];
-
-    // Verify that the students attribute has been updated
-    expect(course.students).toStrictEqual(['Alice', 'John']);
-  });
+  // Attempt to set students to a non-array value
+  expect(() => { c1.students = 'Alice, John' }).toThrow('Students must be an array of strings');
 });

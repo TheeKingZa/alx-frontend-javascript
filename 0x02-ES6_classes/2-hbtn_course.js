@@ -1,51 +1,61 @@
-// HolbertonCourse class definition
-class HolbertonCourse {
+export default class HolbertonCourse {
+  // Constructor method to initialize the class attributes
   constructor(name, length, students) {
-    // Verify the type of attributes during object creation
+    // Validate and set name
     if (typeof name !== 'string') {
-      throw new TypeError('Name must be a string'); // Throw an error if name is not a string
+      throw new TypeError('Name must be a string');
     }
+    this._name = name;
+
+    // Validate and set length
     if (typeof length !== 'number') {
-      throw new TypeError('Length must be a number'); // Throw an error if length is not a number
+      throw new TypeError('Length must be a number');
     }
+    this._length = length;
 
-    this._name = name; // Initialize the _name attribute with the provided value
-    this._length = length; // Initialize the _length attribute with the provided value
-    this._students = students; // Initialize the _students attribute with the provided value
+    // Validate and set students
+    if (!Array.isArray(students) || !students.every(student => typeof student === 'string')) {
+      throw new TypeError('Students must be an array of strings');
+    }
+    this._students = students;
   }
 
-  // Getter and setter for the name attribute
+  // Getter for name attribute
   get name() {
-    return this._name; // Getter method for the _name attribute
+    return this._name;
   }
 
-  set name(value) {
-    if (typeof value !== 'string') {
-      throw new TypeError('Name must be a string'); // Throw an error if name is set to a non-string value
+  // Setter for name attribute
+  set name(newName) {
+    if (typeof newName !== 'string') {
+      throw new TypeError('Name must be a string');
     }
-    this._name = value; // Setter method for the _name attribute
+    this._name = newName;
   }
 
-  // Getter and setter for the length attribute
+  // Getter for length attribute
   get length() {
-    return this._length; // Getter method for the _length attribute
+    return this._length;
   }
 
-  set length(value) {
-    if (typeof value !== 'number') {
-      throw new TypeError('Length must be a number'); // Throw an error if length is set to a non-number value
+  // Setter for length attribute
+  set length(newLength) {
+    if (typeof newLength !== 'number') {
+      throw new TypeError('Length must be a number');
     }
-    this._length = value; // Setter method for the _length attribute
+    this._length = newLength;
   }
 
-  // Getter and setter for the students attribute
+  // Getter for students attribute
   get students() {
-    return this._students; // Getter method for the _students attribute
+    return this._students;
   }
 
-  set students(value) {
-    this._students = value; // Setter method for the _students attribute
+  // Setter for students attribute
+  set students(newStudents) {
+    if (!Array.isArray(newStudents) || !newStudents.every(student => typeof student === 'string')) {
+      throw new TypeError('Students must be an array of strings');
+    }
+    this._students = newStudents;
   }
 }
-
-export default HolbertonCourse; // Export the HolbertonCourse class
