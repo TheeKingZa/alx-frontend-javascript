@@ -14,7 +14,7 @@ export default class HolbertonCourse {
     this._length = length;
 
     // Validate and set students
-    if (!Array.isArray(students) || !students.every(student => typeof student === 'string')) {
+    if (!Array.isArray(students) || !students.every((student) => typeof student === 'string')) {
       throw new TypeError('Students must be an array of strings');
     }
     this._students = students;
@@ -53,7 +53,7 @@ export default class HolbertonCourse {
 
   // Setter for students attribute
   set students(newStudents) {
-    if (!Array.isArray(newStudents) || !newStudents.every(student => typeof student === 'string')) {
+    if (!Array.isArray(newStudents) || !newStudents.every((student) => typeof student === 'string')) {
       throw new TypeError('Students must be an array of strings');
     }
     this._students = newStudents;
