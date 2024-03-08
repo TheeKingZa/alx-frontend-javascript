@@ -1,6 +1,7 @@
 # ES6_basic
 [#](https://github.com/TheeKingZa/alx-frontend-javascript/blob/master/README.md) 0x00 [>](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md)
 ---
+
 # Frontend_Javascript
 
 
@@ -138,6 +139,10 @@ Template literals provide a more convenient way to interpolate variables into st
 const name = 'John';
 const greeting = `Hello, ${name}!`;
 ```
+
+[^](#need-to-know)
+
+---
 # Object Creation in ES6
 ES6 introduced shorthand syntax for creating objects and defining methods within object literals.
 
@@ -150,6 +155,10 @@ const person = {
   }
 };
 ```
+
+[^](#need-to-know)
+
+---
 # Iterators and for-of Loops
 ES6 introduced the concept of iterators, which are objects that define a sequence and potentially a return value upon its termination. The for-of loop can then be used to iterate over these iterators.
 
@@ -163,3 +172,5 @@ for (const num of numbers) {
 ---
 
 [^](#need-to-know)
+
+---
