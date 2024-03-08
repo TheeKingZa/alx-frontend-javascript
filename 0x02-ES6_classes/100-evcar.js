@@ -1,5 +1,5 @@
 // Import the Car class
-import Car from './10-car.js';
+import Car from './10-car';
 
 // Define the EVCar class that extends Car
 export default class EVCar extends Car {
