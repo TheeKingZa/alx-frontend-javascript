@@ -1,7 +1,7 @@
 // Define a function named handleResponseFromAPI which takes a promise parameter
 export default function handleResponseFromAPI(promise) {
   // Append three handlers to the promise using .then() method
-  promise
+  return promise
     .then(() => {
       // Log a message to the console when the Promise resolves
       console.log('Got a response from the API');
