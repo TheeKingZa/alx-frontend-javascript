@@ -19,8 +19,7 @@ describe('handleProfileSignup', () => {
     expect(result).toHaveLength(2);
     // Check if the status of the first element is "fulfilled"
     expect(result[0].status).toBe('fulfilled');
-    // Check if the status of the second element is "fulfilled" or "rejected"
-    expect(result[1].status).toBeOneOf(['fulfilled', 'rejected']);
+    // Check if the status of the second element is either "fulfilled" or "rejected"
+    expect(['fulfilled', 'rejected']).toContain(result[1].status);
   });
 });
-
