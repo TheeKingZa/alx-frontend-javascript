@@ -15,9 +15,9 @@
 
 <br/>
 
-<div style="background-color: gold;">
+<div style="color: gold;">
   
-[My_Portfolio](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
+[`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
 
 </div>
   
