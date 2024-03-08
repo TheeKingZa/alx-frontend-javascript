@@ -12,6 +12,8 @@
 * [`ES6_Classes`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x02-ES6_classes/README.md)
 
 
+
+<br/>
 ---
 
 [`^`](#short-specializations)
