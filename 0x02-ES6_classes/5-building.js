@@ -1,25 +1,21 @@
 // Define the Building class
 class Building {
-  // Constructor takes sqft as a parameter
+  // Constructor method to initialize the Building instance with sqft attribute
   constructor(sqft) {
-    // Initialize the _sqft attribute with the provided value
+    // Store the sqft attribute in an underscore version
     this._sqft = sqft;
   }
 
-  // Getter for the sqft attribute
+  // Getter method for accessing the sqft attribute
   get sqft() {
     return this._sqft;
   }
 
-  // Disable the class-methods-use-this rule for the evacuationWarningMessage method
-  // eslint-disable-next-line class-methods-use-this
-  // Method to be overridden by subclasses
+  // Method to be implemented by subclasses, throws an error if not overridden
   evacuationWarningMessage() {
-    console.log(this.sqft);
-    // Throw an error indicating that the subclass must override this method
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
 }
 
-// Export the Building class for use in other modules
+// Export the Building class
 export default Building;
