@@ -2,7 +2,7 @@
 [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/blob/master/README.md) `0x00` [`>`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md)
 ---
 
-# Frontend_Javascript
+# `Frontend`_Javascript
 
 
 # `Concepts`
@@ -46,7 +46,7 @@ For this project, we expect you to look at these concepts:
 * [var, let and const](https://www.youtube.com/watch?v=sjyJBL5fkp8)
 * [Javascript Tutorial](https://www.youtube.com/watch?v=vZBCTc9zHtI)
 * [JavaScript object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-* [Object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript) read all examples!
+* [Object-oriented JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript) read all `examples!`
 * [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 * [Inheritance in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
