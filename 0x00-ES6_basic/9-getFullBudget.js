@@ -1,4 +1,4 @@
-import getBudgetObject from './7-getBudgetObject.js';
+import getBudgetObject from './7-getBudgetObject';
 
 // Define a function called getFullBudgetObject
 export default function getFullBudgetObject(income, gdp, capita) {
@@ -9,15 +9,14 @@ export default function getFullBudgetObject(income, gdp, capita) {
   const fullBudget = {
     ...budget,
     // Use shorthand method syntax to define getIncomeInDollars method
-    getIncomeInDollars(income) {
-      return '$${income}';
+    getIncomeInDollars() {
+      return `$${income}`;
     },
     // Use shorthand method syntax to define getIncomeInEuros method
-    getIncomeInEuros(income) {
-      return '${income} euros';
+    getIncomeInEuros() {
+      return `${income} euros`;
     },
   };
 
   return fullBudget;
 }
-

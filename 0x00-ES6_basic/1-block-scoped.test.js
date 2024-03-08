@@ -1,5 +1,5 @@
 // Import the function to be tested
-import taskBlock from './1-block-scoped.js';
+import taskBlock from './1-block-scoped';
 
 describe('taskBlock', () => {
   it('should return [false, true] when trueOrFalse is true', () => {
@@ -7,7 +7,7 @@ describe('taskBlock', () => {
     const result = taskBlock(true);
 
     // Ensure that the returned value is correct
-    expect(result).toEqual([false, true]);
+    expect(result).toStrictEqual([false, true]);
   });
 
   it('should return [false, true] when trueOrFalse is false', () => {
@@ -15,6 +15,6 @@ describe('taskBlock', () => {
     const result = taskBlock(false);
 
     // Ensure that the returned value is correct
-    expect(result).toEqual([false, true]);
+    expect(result).toStrictEqual([false, true]);
   });
 });
