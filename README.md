@@ -1,5 +1,5 @@
 # `Short Specializations`
-`[ALX AFRICA](https://www.alxafrica.com)`
+[`ALX AFRICA`](https://www.alxafrica.com)
 ---
 ```
 * JavaScript Programming
