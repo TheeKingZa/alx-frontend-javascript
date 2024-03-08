@@ -2,7 +2,7 @@
 export default function createReportObject(employeesList) {
   // Define the allEmployees object using spread syntax to merge the employee lists
   const allEmployees = {
-    ...employeesList
+    ...employeesList,
   };
 
   // Define the getNumberOfDepartments method property using ES6 method property syntax
@@ -13,7 +13,6 @@ export default function createReportObject(employeesList) {
   // Return an object containing allEmployees and the getNumberOfDepartments method
   return {
     allEmployees,
-    getNumberOfDepartments
+    getNumberOfDepartments,
   };
 }
-
