@@ -16,9 +16,9 @@
 <br/>
 
   <center>
-    <p> 
+    
       [`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
-    </p>
+
   </center>
 
 
