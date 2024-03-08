@@ -1,5 +1,5 @@
 # ES6 `classes`
-[<](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md) `0x02` [#](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
+[`<`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md) `0x02` [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
 ---
 # `NEED TO KNOW?`
 * [How to ddefeine a class](#defining-a-class)
@@ -31,7 +31,7 @@ class Rectangle {
 
 * In this example, Rectangle has a constructor that initializes its height and width.
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Adding Methods` to a Class:
@@ -56,7 +56,7 @@ const p1 = new Person("John", 36);
 p1.greet(); // Outputs: "Hello, my name is John"
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Adding a Static Method` to a Class:
@@ -76,7 +76,7 @@ class MathUtils {
 const result = MathUtils.add(10, 20); // Result: 30
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Extending` a Class (`Inheritance`):
@@ -104,7 +104,7 @@ myDog.speak(); // Outputs: "Dog barks"
 
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Metaprogramming` and `Symbols`:
@@ -116,4 +116,4 @@ myDog.speak(); // Outputs: "Dog barks"
 
 ---
 
-[^](#need-to-know)
+[`^`](#need-to-know)
