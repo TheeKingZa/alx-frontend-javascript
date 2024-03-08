@@ -14,13 +14,10 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
 
   // Return a Promise that resolves when all promises in the array have settled
   return Promise.allSettled(promises)
-    .then(results => {
+    .then((results) =>
       // Map over the results array and return an array with the status and value/error of each promise
-      return results.map(result => {
-        return {
-          status: result.status,
-          value: result.status === 'fulfilled' ? result.value : result.reason
-        };
-      });
-    });
+      results.map((result) => ({
+        status: result.status,
+        value: result.status === 'fulfilled' ? result.value : result.reason,
+      })));
 }

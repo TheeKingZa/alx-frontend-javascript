@@ -5,4 +5,3 @@ export default function getResponseFromAPI() {
     resolve('Response from API');
   });
 }
-

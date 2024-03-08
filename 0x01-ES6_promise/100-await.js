@@ -8,16 +8,15 @@ async function asyncUploadUser() {
     // Return an object with the responses from both functions
     return {
       photo: photoResponse,
-      user: userResponse
+      user: userResponse,
     };
   } catch (error) {
     // If any of the async functions fail, return an empty object
     return {
       photo: null,
-      user: null
+      user: null,
     };
   }
 }
 
 export default asyncUploadUser;
-
