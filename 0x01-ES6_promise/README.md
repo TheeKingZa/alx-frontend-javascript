@@ -21,7 +21,7 @@ of an asynchronous operation and its resulting value. It allows you to handle as
 operations in a more elegant and manageable way.
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # How to Use the `then`, `resolve`, and `catch` Methods
@@ -48,7 +48,7 @@ promise.then(
 );
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # Using `resolve` Method:
@@ -69,7 +69,7 @@ promise.then(
 );
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # Using `catch` Method:
@@ -94,7 +94,7 @@ promise.then(
 );
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 
@@ -117,7 +117,7 @@ Promise.every(promises).then(result => {
 });
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # Using `Throw / Try`
@@ -142,7 +142,7 @@ promise.catch(error => {
 });
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Await` Operator
@@ -165,7 +165,7 @@ fetchData().then(data => {
 });
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # How to Use an `Async` Function
@@ -189,6 +189,6 @@ fetchData().then(data => {
 
 ---
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
