@@ -1,7 +1,5 @@
 # ES6_basic
-
 [#](https://github.com/TheeKingZa/alx-frontend-javascript/blob/master/README.md) 0x00 [>](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md)
-
 ---
 # Frontend_Javascript
 
