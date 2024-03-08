@@ -15,7 +15,11 @@
 
 <br/>
 
-  <center> [`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md) </center>
+  <center>
+    <p> 
+      [`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
+    </p>
+  </center>
 
 
   
