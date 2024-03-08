@@ -16,7 +16,7 @@
 <br/>
 
 
-[`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
+
  
 
 
@@ -25,7 +25,6 @@
 
 ---
 
-[`^`](#short-specializations)
-
+[`^`](#short-specializations) | [`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
 
 ---
