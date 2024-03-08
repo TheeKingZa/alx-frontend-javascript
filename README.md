@@ -15,11 +15,9 @@
 
 <br/>
 
-<div style="color: gold;">
-  
-[`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md)
+  <center> [`My_Portfolio`](https://github.com/TheeKingZa/Portfolio/blob/master/README.md) </center>
 
-</div>
+
   
 <br/>
 
