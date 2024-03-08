@@ -14,6 +14,6 @@
 <br/>
 ---
 
-[^](#short-specializations)
+[`^`](#short-specializations)
 
 ---
