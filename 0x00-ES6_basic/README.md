@@ -48,7 +48,14 @@ For this project, we expect you to look at these concepts:
 # Definition
 
 ```
-A software linter also known as a “linter” is a tool used to identify and report potential issues (syntax errors, undeclared variables, etc.) in a program. It can even report convention or style inconsistencies. It does so by highlighting them so that the programmer is aware, so changes can be made. There are a wide variety of linters as well as lint rules for specific programming languages and even for software frameworks.
+  A software linter also known as a “linter” is a tool used to
+  identify and report potential issues
+  (syntax errors, undeclared variables, etc.) in a program.
+  It can even report convention or style inconsistencies.
+  It does so by highlighting them so that the programmer is aware,
+  so changes can be made.
+  There are a wide variety of linters as well as lint rules for
+  specific programming languages and even for software frameworks.
 ```
 
 There are typically two ways to lint code:
@@ -58,12 +65,21 @@ There are typically two ways to lint code:
 
 # Active
 ```
-Active checking is typically achieved by running a monitor tool that is constantly checking the file that your working on in order to spot inconsistencies and possible errors (e.g., having a specific linter along with some lint rules installed as a plug-in in your Code Editor).
+  Active checking is typically achieved by running a monitor tool
+  that is constantly checking the file that your working on in
+  order to spot inconsistencies and possible errors
+  (e.g., having a specific linter along with some lint rules
+  installed as a plug-in in your Code Editor).
 ```
 
 # Passive
 ```
-Passive checking is done by taking a piece of code, and manually running it through a tool to identify potential issues. For example, copying and pasting your code into a specific linter tool, or running the linter against a specific file using the command line. This tool can be installed locally or be available as a service (e.g., website on the Internet).
+  Passive checking is done by taking a piece of code,
+  and manually running it through a tool to identify potential issues.
+  For example, copying and pasting your code into a specific linter tool,
+  or running the linter against a specific file using the command line.
+  This tool can be installed locally or be available as a service
+  (e.g., website on the Internet).
 ```
 ---
 
@@ -73,6 +89,9 @@ Passive checking is done by taking a piece of code, and manually running it thro
 
 ---
 
+[^](#need-to-know)
+
+---
 # what ES6 is?
 
 ES6, also known as ECMAScript 2015, is a significant update to the JavaScript language, introducing new syntax and features to make JavaScript code more expressive and efficient.
@@ -99,6 +118,9 @@ ES6 introduced several new features, including:
 * Modules: A standardized way of organizing and importing/exporting code.
 ```
 
+[^](#need-to-know)
+
+---
 # Constants vs Variables:
 In ES6, const is used to declare constants, which cannot be reassigned, while let is used to declare variables with block scope that can be reassigned.
 ```
@@ -106,6 +128,9 @@ const PI = 3.14159;
 let count = 0;
 ```
 
+[^](#need-to-know)
+
+---
 # Block-scoped Variables
 Variables declared with let and const are block-scoped, meaning they are only accessible within the block in which they are defined.
 
@@ -116,6 +141,10 @@ Variables declared with let and const are block-scoped, meaning they are only ac
 }
 console.log(x); // ReferenceError: x is not defined
 ```
+
+[^](#need-to-know)
+
+---
 # Arrow Functions
 Arrow functions provide a more concise syntax for writing functions and automatically bind this to the enclosing lexical scope.
 
