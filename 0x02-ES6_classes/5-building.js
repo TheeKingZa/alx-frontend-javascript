@@ -10,7 +10,6 @@ class Building {
 
   // Abstract method that must be overridden by subclasses
   evacuationWarningMessage() {
-    // Use `this` to refer to the current instance
     throw new Error('Class extending Building must override evacuationWarningMessage');
   }
 }
