@@ -20,6 +20,10 @@ For this project, we expect you to look at these concepts:
 * [Rest parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 * [Demystifying ES6 Iterables & Iterators](https://www.freecodecamp.org/news/demystifying-es6-iterables-iterators-4bdd0b084082/)
 
+---
+[`^`](#need-to-know)
+---
+
 # Learning Objectives
 # `JavaScript` programming.
 * [What ES6 is](#what-es6-is)
@@ -33,6 +37,9 @@ For this project, we expect you to look at these concepts:
 * [Iterators and for-of loops](#iterators-and-for-of-loops)
 
 ---
+[`^`](#need-to-know)
+---
+
 * [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
 * [JavaScript Fundamentals](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 * [Module patterns](https://darrenderidder.github.io/talks/ModulePatterns/#/)
@@ -44,8 +51,11 @@ For this project, we expect you to look at these concepts:
 * [Inheritance in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript)
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 * [this/self](https://alistapart.com/article/getoutbindingsituations/)
+---
+[`^`](#need-to-know)
+---
 
-# Software Linter
+# Software `Linter`
 # Definition
 
 ```
@@ -61,8 +71,8 @@ For this project, we expect you to look at these concepts:
 
 There are typically two ways to lint code:
 
-* [Actively](#active)
-* [Passively](#passive)
+* [`Actively`](#active)
+* [`Passively`](#passive)
 
 # `Active`
 ```
@@ -83,14 +93,15 @@ There are typically two ways to lint code:
   (e.g., website on the Internet).
 ```
 ---
-
+[`^`](#need-to-know)
+---
 * [lint (software) - Wikipedia](https://en.wikipedia.org/wiki/Lint_(software))
 * [ESLint - Pluggable JavaScript linter](https://eslint.org/)
 * [pycodestyle - documentation](https://pycodestyle.pycqa.org/en/latest/)
 
 ---
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # what `ES6` is?
@@ -119,7 +130,7 @@ ES6 introduced several new features, including:
 * Modules: A standardized way of organizing and importing/exporting code.
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Constants` vs `Variables`:
@@ -129,7 +140,7 @@ const PI = 3.14159;
 let count = 0;
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Block-scoped` Variables
@@ -143,7 +154,7 @@ Variables declared with let and const are block-scoped, meaning they are only ac
 console.log(x); // ReferenceError: x is not defined
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Arrow` Functions
@@ -153,7 +164,7 @@ Arrow functions provide a more concise syntax for writing functions and automati
 const add = (a, b) => a + b;
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Rest` and `Spread` Parameters
@@ -165,7 +176,7 @@ const numbers = [1, 2, 3];
 console.log(sum(...numbers)); // 6
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `String` Templating
@@ -176,7 +187,7 @@ const name = 'John';
 const greeting = `Hello, ${name}!`;
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Object Creation` in `ES6`
@@ -192,7 +203,7 @@ const person = {
 };
 ```
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
 # `Iterators` and `for-of` `Loops`
@@ -207,6 +218,6 @@ for (const num of numbers) {
 
 ---
 
-[^](#need-to-know)
+[`^`](#need-to-know)
 
 ---
