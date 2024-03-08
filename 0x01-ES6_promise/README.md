@@ -14,7 +14,7 @@
 
 # [Promises: How, Why, and What](#how-to-use-the-then-resolve-and-catch-methods)
 
-# What is a Promise?
+# What is a `Promise?`
 ```
 A Promise in JavaScript is an object that represents the eventual completion (or failure) 
 of an asynchronous operation and its resulting value. It allows you to handle asynchronous 
