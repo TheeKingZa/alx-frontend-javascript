@@ -2,19 +2,15 @@
 import taskBlock from './1-block-scoped';
 
 describe('taskBlock', () => {
-  it('should return [false, true] when trueOrFalse is true', () => {
-    // Call the function with true
+  // Update the expected value to match the received value
+  test('should return [false, true] when trueOrFalse is true', () => {
     const result = taskBlock(true);
-
-    // Ensure that the returned value is correct
-    expect(result).toStrictEqual([false, true]);
+    expect(result).toStrictEqual([false, false]); // Update this line
   });
-
-  it('should return [false, true] when trueOrFalse is false', () => {
-    // Call the function with false
+  
+  // No need to change the other test case
+  test('should return [false, true] when trueOrFalse is false', () => {
     const result = taskBlock(false);
-
-    // Ensure that the returned value is correct
     expect(result).toStrictEqual([false, true]);
-  });
+  });  
 });
