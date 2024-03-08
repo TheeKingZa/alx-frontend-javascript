@@ -1,4 +1,4 @@
-# ES6 `classes`
+# ES6_`classes`
 [`<`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md) `0x02` [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
 ---
 # `NEED TO KNOW?`
