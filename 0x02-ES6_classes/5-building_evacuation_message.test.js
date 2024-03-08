@@ -1,9 +1,12 @@
-import Building from './5-building.js';
+import Building from './5-building';
 
-class TestBuilding extends Building {}
-
-test("Building forces override", () => {
-  expect(() => {
-    new TestBuilding(200);
-  }).toThrowError("Class extending Building must override evacuationWarningMessage");
+describe('building evacuation message', () => {
+  describe('evacuationWarningMessage', () => {
+    it('should throw an error if not overridden by a subclass', () => {
+      expect.assertions(1); // Ensure there is at least one assertion
+      expect(() => {
+        new Building().evacuationWarningMessage();
+      }).toThrow('Class extending Building must override evacuationWarningMessage');
+    });
+  });
 });
