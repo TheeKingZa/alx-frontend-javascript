@@ -1,8 +1,6 @@
 # ES6 classes
-
 []() 0x02 []()
 
-<br/>
 ---
 # NEED TO KNOW?
 * [How to ddefeine a class](#defining-a-class)
