@@ -21,7 +21,7 @@ For this project, we expect you to look at these concepts:
 
 # Learning Objectives
 # JavaScript programming.
-* [What ES6 is](#understanding-es6)
+* [What ES6 is](#what-es6-is)
 * [New features introduced in ES6](#new-features-introduced-in-es6)
 * [The difference between a constant and a variable](#constants-vs-variables)
 * [Block-scoped variables](#block-scoped-variables)
@@ -123,7 +123,7 @@ Arrow functions provide a more concise syntax for writing functions and automati
 const add = (a, b) => a + b;
 ```
 
-Rest and Spread Parameters
+# Rest and Spread Parameters
 Rest parameters allow functions to accept an indefinite number of arguments as an array, while spread syntax allows arrays or iterable objects to be expanded into individual elements.
 
 ```
@@ -132,7 +132,7 @@ const numbers = [1, 2, 3];
 console.log(sum(...numbers)); // 6
 ```
 
-String Templating
+# String Templating
 Template literals provide a more convenient way to interpolate variables into strings, supporting multi-line strings and expression interpolation.
 
 ```
