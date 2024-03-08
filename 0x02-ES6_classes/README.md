@@ -1,8 +1,9 @@
 # ES6 classes
+
 []() 0x02 []()
 
+<br/>
 ---
-
 # NEED TO KNOW?
 * [How to ddefeine a class](#defining-a-class)
 * [Why and How to add a static method to a class](#adding-a-static-method-to-a-class)
