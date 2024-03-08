@@ -1,8 +1,8 @@
 # Promise
-[<](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x00-ES6_basic/README.md) 0x01 [>](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x02-ES6_classes/README.md)
+[<](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x00-ES6_basic/README.md) `0x01` [>](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x02-ES6_classes/README.md)
 ---
 
-# NEED TO KNOW?
+# `NEED TO KNOW`?
 * [Promise](#promises-how-why-and-what)
 * [JavaScript Promise: An introduction](#what-is-a-promise)
 * [Throw / Try](#using-throw--try)
@@ -120,7 +120,7 @@ Promise.every(promises).then(result => {
 [^](#need-to-know)
 
 ---
-# Using Throw / Try
+# Using `Throw / Try`
 Throwing an error within a promise will reject the promise, allowing you to handle errors 
 using the `catch` method or the rejection handler in the `then` method.
 
@@ -145,7 +145,7 @@ promise.catch(error => {
 [^](#need-to-know)
 
 ---
-# Await Operator
+# `Await` Operator
 The `await` operator is used to pause the execution of an async function and wait for a 
 Promise to settle (fulfilled or rejected), and to resume the execution of the async function 
 after that. It can only be used inside an async function.
@@ -168,7 +168,7 @@ fetchData().then(data => {
 [^](#need-to-know)
 
 ---
-# How to Use an Async Function
+# How to Use an `Async` Function
 An async function is a function declared with the `async` keyword, which enables the use 
 of the `await` keyword within its body. Async functions always return a Promise.
 
