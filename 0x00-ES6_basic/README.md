@@ -1,17 +1,18 @@
 # ES6_basic
-[#](https://github.com/TheeKingZa/alx-frontend-javascript/blob/master/README.md) 0x00 [>](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md)
+[#](https://github.com/TheeKingZa/alx-frontend-javascript/blob/master/README.md) `0x00` [>](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md)
 ---
 
 # Frontend_Javascript
 
 
-# Concepts
+# `Concepts`
 For this project, we expect you to look at these concepts:
 
 * [JavaScript programming](#JavaScript-programming)
 * [Software Linter](#software-linter)
+---
 
-# NEED-TO-KNOW?
+# `NEED-TO-KNOW`?
 * [ECMAScript 6 - ECMAScript 2015](https://www.w3schools.com/js/js_es6.asp)
 * [Statements and declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
 * [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
@@ -20,7 +21,7 @@ For this project, we expect you to look at these concepts:
 * [Demystifying ES6 Iterables & Iterators](https://www.freecodecamp.org/news/demystifying-es6-iterables-iterators-4bdd0b084082/)
 
 # Learning Objectives
-# JavaScript programming.
+# `JavaScript` programming.
 * [What ES6 is](#what-es6-is)
 * [New features introduced in ES6](#new-features-introduced-in-es6)
 * [The difference between a constant and a variable](#constants-vs-variables)
@@ -63,7 +64,7 @@ There are typically two ways to lint code:
 * [Actively](#active)
 * [Passively](#passive)
 
-# Active
+# `Active`
 ```
   Active checking is typically achieved by running a monitor tool
   that is constantly checking the file that your working on in
@@ -72,7 +73,7 @@ There are typically two ways to lint code:
   installed as a plug-in in your Code Editor).
 ```
 
-# Passive
+# `Passive`
 ```
   Passive checking is done by taking a piece of code,
   and manually running it through a tool to identify potential issues.
@@ -92,7 +93,7 @@ There are typically two ways to lint code:
 [^](#need-to-know)
 
 ---
-# what ES6 is?
+# what `ES6` is?
 
 ES6, also known as ECMAScript 2015, is a significant update to the JavaScript language, introducing new syntax and features to make JavaScript code more expressive and efficient.
 
@@ -121,7 +122,7 @@ ES6 introduced several new features, including:
 [^](#need-to-know)
 
 ---
-# Constants vs Variables:
+# `Constants` vs `Variables`:
 In ES6, const is used to declare constants, which cannot be reassigned, while let is used to declare variables with block scope that can be reassigned.
 ```
 const PI = 3.14159;
@@ -131,7 +132,7 @@ let count = 0;
 [^](#need-to-know)
 
 ---
-# Block-scoped Variables
+# `Block-scoped` Variables
 Variables declared with let and const are block-scoped, meaning they are only accessible within the block in which they are defined.
 
 ```
@@ -145,7 +146,7 @@ console.log(x); // ReferenceError: x is not defined
 [^](#need-to-know)
 
 ---
-# Arrow Functions
+# `Arrow` Functions
 Arrow functions provide a more concise syntax for writing functions and automatically bind this to the enclosing lexical scope.
 
 ```
@@ -155,7 +156,7 @@ const add = (a, b) => a + b;
 [^](#need-to-know)
 
 ---
-# Rest and Spread Parameters
+# `Rest` and `Spread` Parameters
 Rest parameters allow functions to accept an indefinite number of arguments as an array, while spread syntax allows arrays or iterable objects to be expanded into individual elements.
 
 ```
@@ -167,7 +168,7 @@ console.log(sum(...numbers)); // 6
 [^](#need-to-know)
 
 ---
-# String Templating
+# `String` Templating
 Template literals provide a more convenient way to interpolate variables into strings, supporting multi-line strings and expression interpolation.
 
 ```
@@ -178,7 +179,7 @@ const greeting = `Hello, ${name}!`;
 [^](#need-to-know)
 
 ---
-# Object Creation in ES6
+# `Object Creation` in `ES6`
 ES6 introduced shorthand syntax for creating objects and defining methods within object literals.
 
 ```
@@ -194,7 +195,7 @@ const person = {
 [^](#need-to-know)
 
 ---
-# Iterators and for-of Loops
+# `Iterators` and `for-of` `Loops`
 ES6 introduced the concept of iterators, which are objects that define a sequence and potentially a return value upon its termination. The for-of loop can then be used to iterate over these iterators.
 
 ```
