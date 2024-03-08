@@ -123,6 +123,9 @@ Arrow functions provide a more concise syntax for writing functions and automati
 const add = (a, b) => a + b;
 ```
 
+[^](#need-to-know)
+
+---
 # Rest and Spread Parameters
 Rest parameters allow functions to accept an indefinite number of arguments as an array, while spread syntax allows arrays or iterable objects to be expanded into individual elements.
 
@@ -132,6 +135,9 @@ const numbers = [1, 2, 3];
 console.log(sum(...numbers)); // 6
 ```
 
+[^](#need-to-know)
+
+---
 # String Templating
 Template literals provide a more convenient way to interpolate variables into strings, supporting multi-line strings and expression interpolation.
 
