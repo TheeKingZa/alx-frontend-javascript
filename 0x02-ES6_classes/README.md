@@ -2,7 +2,7 @@
 [`<`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md) `0x02` [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
 ---
 # `NEED TO KNOW?`
-* [How to ddefeine a class](#defining-a-class)
+* [How to define a class](#defining-a-class)
 * [Why and How to add a static method to a class](#adding-a-static-method-to-a-class)
 * [How to extend a class from another](#extending-a-class-inheritance)
 * [Metaprogramming and symbols](#metaprogramming-and-symbols)
