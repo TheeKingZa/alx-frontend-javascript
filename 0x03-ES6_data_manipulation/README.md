@@ -1,5 +1,5 @@
 # ES6_`Data Manipulation`
-[`>`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x02-ES6_classes/README.md) `0x03` [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
+[`<`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x02-ES6_classes/README.md) `0x03` [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
 ---
 
 # `read or watch`
