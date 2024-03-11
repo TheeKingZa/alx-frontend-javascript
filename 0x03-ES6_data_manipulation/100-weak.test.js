@@ -25,8 +25,6 @@ describe('queryAPI', () => {
       queryAPI(endpoint);
     }
     // Expect an error to be thrown when querying the endpoint again
-    expect(() => {
-      queryAPI(endpoint);
-    }).toThrow('Endpoint load is high');
+    expect(() => queryAPI(endpoint)).toThrowError('Endpoint load is high');
   });
 });
