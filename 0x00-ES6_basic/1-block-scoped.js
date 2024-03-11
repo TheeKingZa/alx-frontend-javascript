@@ -1,12 +1,14 @@
+// Define a function called taskBlock
 export default function taskBlock(trueOrFalse) {
-  let task = false; // Use let instead of var
-  let task2 = true; // Use let instead of var
+  // Initialize the result array
+  let result = [false, true];
 
+  // Check if trueOrFalse is true
   if (trueOrFalse) {
-    task = true; // Assign value without redeclaring
-    task2 = false; // Assign value without redeclaring
+    // Update the result array if trueOrFalse is true
+    result = [false, false];
   }
 
-  return [task, task2];
+  // Return the result array
+  return result;
 }
-

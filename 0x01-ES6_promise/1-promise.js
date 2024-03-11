@@ -7,7 +7,8 @@ export default function getFullResponseFromAPI(success) {
       // If true, resolve the Promise with an object containing status 200 and the body 'Success'
       resolve({ status: 200, body: 'Success' });
     } else {
-      // If false, reject the Promise with an Error object containing the message 'The fake API is not working currently'
+      // If false, reject the Promise with an Error object
+      // containing the message 'The fake API is not working currently'
       reject(new Error('The fake API is not working currently'));
     }
   });
