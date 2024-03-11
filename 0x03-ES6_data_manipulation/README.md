@@ -13,7 +13,7 @@
 * [Array Methods](#array-methods) 
 * How to use [map](#map), [filter](#filter) and [reduce](#reduce) on arrays
 * [Typed arrays](#typed-arrays)
-* [The Set](), [Map](#mapkey-value-pairs), and [Weak](#weakmap) [link data structures](#linked-lists)
+* [The Set](#set), [Map](#mapkey-value-pairs), and [Weak](#weakmap) [link data structures](#linked-lists)
 
 ---
 
