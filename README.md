@@ -10,8 +10,9 @@
 * [`ES6_Basic`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x00-ES6_basic/README.md)
 * [`ES6_Promise`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md)
 * [`ES6_Classes`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x02-ES6_classes/README.md)
+* [`ES6_Data_Manipulation`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x03-ES6-data_manipulation/README.md)
 
-
+---
 
 <br/>
 

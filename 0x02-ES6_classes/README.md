@@ -1,5 +1,5 @@
 # ES6_`classes`
-[`<`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md) `0x02` [`#`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/README.md)
+[`<`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x01-ES6_promise/README.md) `0x02` [`>`](https://github.com/TheeKingZa/alx-frontend-javascript/tree/master/0x03-ES6-data_manipulation/README.md)
 ---
 # `NEED TO KNOW?`
 * [How to define a class](#defining-a-class)
