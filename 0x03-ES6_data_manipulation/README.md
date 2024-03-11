@@ -11,9 +11,9 @@
 
 # NEED TO KNOW?
 * [Array Methods](#array-methods) 
-* How to use [map](#map), [filter]() and [reduce]() on arrays
-* [Typed arrays]()
-* [The Set](), [Map](), and [Weak]() [link data structures]()
+* How to use [map](#map), [filter](#filter) and [reduce](#reduce) on arrays
+* [Typed arrays](#typed-arrays)
+* [The Set](), [Map](#mapkey-value-pairs), and [Weak](#weakmap) [link data structures](#linked-lists)
 
 ---
 
