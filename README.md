@@ -16,7 +16,20 @@
 
 <br/>
 
+seting up for the node v12.x
+```
 
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+then close terminal and open new session:
+
+run the commands:
+	
+	nvm install 12.11
+	nvm alias default 12.11
+	node -v
+	npm -v
+```
 
  
 
