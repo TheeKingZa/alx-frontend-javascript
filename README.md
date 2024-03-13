@@ -65,8 +65,19 @@ Initialixe ESLint Configuration:
 #NOTE this creates the Package.json.
 ---
 
+	Add Scripts to Package.json:
+	
+	"scripts": {
+	    "test": "jest",
+	    "lint": "eslint ."
+	}
 ```
-  
+ 
+After setting up your project you now can now write tests using Jest, transpile your code using Babel, and lint your code using ESLint.
+
+
+
+
 <br/>
 
 ---
